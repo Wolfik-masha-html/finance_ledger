@@ -195,3 +195,9 @@ padding-bottom: 17px;
   .buisnnes-list img{
     width: 100%;
   }
+
+  .buisnnes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
