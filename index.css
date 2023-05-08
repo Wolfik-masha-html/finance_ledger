@@ -102,7 +102,7 @@ header {
   display: flex;
 }
 
-.btn-main{
+.btn-main {
   background: #28A745;
 
 }
@@ -114,9 +114,9 @@ header {
 
 .services-list {
   display: flex;
-padding: 40px 0 20px 0;
-align-items: center;
-gap: 70px;
+  padding: 40px 0 20px 0;
+  align-items: center;
+  gap: 70px;
 }
 
 .services-item i {
@@ -132,37 +132,37 @@ gap: 70px;
 
 .services-item img {
   max-width: 100%;
-  height:  auto;
+  height: auto;
 }
 
-.services-item{
+.services-item {
   text-align: center;
   color: #333333;
 }
 
-.services-title{
+.services-title {
   font-size: 20px;
   padding: 15px 0;
 }
 
-.solutions{
+.solutions {
   background: #28A745;
   display: flex;
   align-items: center;
 }
 
-.soliton-inner{
- width: 50%;
- height: auto;
+.soliton-inner {
+  width: 50%;
+  height: auto;
 }
 
-.soliton-inner img{
+.soliton-inner img {
   height: 100%;
   display: flex;
   object-fit: cover;
 }
 
-.solution-inner-text{
+.solution-inner-text {
   max-width: 680px;
   padding-left: 30px;
   color: #FFFFFF;
@@ -171,105 +171,164 @@ gap: 70px;
 
 
 
-.solution-inner-text h2{
+.solution-inner-text h2 {
   font-weight: 300;
   font-size: 38px;
   color: #FFFFFF;
   padding-bottom: 26px;
 }
 
-.btn-second{
-margin: 0 ;
-box-shadow: inset 0 0 0 1px #fff;
-border: none;
+.btn-second {
+  margin: 0;
+  box-shadow: inset 0 0 0 1px #fff;
+  border: none;
 }
 
-.solution-inner-text p{
-padding-bottom: 17px;
+.solution-inner-text p {
+  padding-bottom: 17px;
 }
 
 
 
-.Business{
+.Business {
   text-align: center;
-padding: 50px 0;
+  padding: 50px 0;
 }
 
-.Business h2{
+.Business h2 {
   margin: 15px 0 30px 0;
   font-size: 38px;
 }
 
- .buisnnes-list li {
-    width: calc(25% - 6px); 
-    
-  }
+.buisnnes-list li {
+  width: calc(25% - 6px);
 
-  .buisnnes-list img{
-    width: 100%;
-  }
+}
 
-  .buisnnes-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding-bottom: 39px;
-  }
+.buisnnes-list img {
+  width: 100%;
+}
 
-.Blog{
+.buisnnes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-bottom: 39px;
+}
+
+.Blog {
   background-color: #0284D0;
   ;
+
+}
+
+.blog-inner {
+  display: flex;
+  align-items: center;
+
+  height: auto;
+  justify-content: space-between;
+}
+
+.blog-inner img {
+  height: 100%;
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  height: 518px;
+}
+
+.blog-inner-text {
+  max-width: 680px;
+  padding-left: 30px;
+  color: #FFFFFF;
+  width: 50%;
+
+}
+
+.blog-image {
+  width: 50%;
+  height: auto;
+}
+
+.blog-inner-text h2 {
+  font-weight: 300;
+  font-size: 38px;
+  color: #FFFFFF;
+  padding-bottom: 26px;
+}
+
+.btn-second {
+  margin: 0;
+  box-shadow: inset 0 0 0 1px #fff;
+  border: none;
+}
+
+.blog-inner-text p {
+  padding-bottom: 17px;
+}
+
+.btn-second:hover {
+  background: #FFFFFF;
+  color: #333333;
+  transition: 0.3s;
+}
+
+.Professional{
+text-align: center;
+margin-top: 49px;
+margin-bottom: 59px;
+}
+
+.Professional-title{
+  padding-bottom: 16px;
+}
+
+.Professional h2{
+  padding-bottom: 22px;
+}
+
+.Professional-title2{
+  padding-bottom: 34px;
+}
+
+.Professional-list{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Professional-item img{
+  height: 286px;
   
 }
 
-  .blog-inner{
-    display: flex;
-    align-items: center;
-    
- height: auto;
- justify-content: space-between;
-  }
+.Professional h3{
+padding-bottom: 13px;
+}
+.symbol{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: .3s;
+}
 
-  .blog-inner img{
-    height: 100%;
-    display: flex;
-    object-fit: cover;
-    width: 100%;
-    height: 518px;
-  }
-  
-  .blog-inner-text{
-    max-width: 680px;
-    padding-left: 30px;
-    color: #FFFFFF;
-  width: 50%;
 
-  }
-  
-  .blog-image{
-    width: 50%;
-    height: auto;
-  }
-  
-  .blog-inner-text h2{
-    font-weight: 300;
-    font-size: 38px;
-    color: #FFFFFF;
-    padding-bottom: 26px;
-  }
-  
-  .btn-second{
-  margin: 0 ;
-  box-shadow: inset 0 0 0 1px #fff;
-  border: none;
-  }
-  
-  .blog-inner-text p{
-  padding-bottom: 17px;
-  }
 
-  .btn-second:hover{
-     background: #FFFFFF;
-    color: #333333;
-    transition: 0.3s;
-    }
+
+.Professional-image-container{
+position: relative;
+}
+  
+.Professional-image-container:hover .symbol{
+
+    opacity: 1;
+    visibility: visible;
+}
